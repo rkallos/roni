@@ -1,0 +1,14 @@
+{application, roni,
+ [{description, "Erlang string templating with macaroni-filled syntax"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, [roni]},
+
+  {licenses, ["Apache 2.0"]},
+  {links, []}
+ ]}.

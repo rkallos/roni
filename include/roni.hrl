@@ -1,0 +1,2 @@
+-type op() :: literal | basic | either | list | format.
+-record(roni_template, {segs = [] :: [{op(), term()}]}).
