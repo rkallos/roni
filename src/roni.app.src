@@ -1,14 +1,9 @@
-{application, roni,
- [{description, "Erlang string templating with macaroni-filled syntax"},
-  {vsn, "1.0.0"},
-  {registered, []},
-  {applications,
-   [kernel,
-    stdlib
-   ]},
-  {env,[]},
-  {modules, [roni]},
-
-  {licenses, ["Apache 2.0"]},
-  {links, [{"Github", "https://github.com/rkallos/roni"}]}
- ]}.
+{application,roni,
+             [{description,"Erlang string templating with macaroni-filled syntax"},
+              {vsn,"1.0.1"},
+              {registered,[]},
+              {applications,[kernel,stdlib]},
+              {env,[]},
+              {modules,[roni]},
+              {licenses,["Apache 2.0"]},
+              {links,[{"Github","https://github.com/rkallos/roni"}]}]}.
